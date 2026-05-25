@@ -116,6 +116,19 @@ npm install && npm run setup
 
 The setup wizard configures branding, theme, authentication (GitHub/Google/Azure AD), and features.
 
+**Recommended database:** prompts.chat uses PostgreSQL. For a hosted database, we recommend [Neon](https://get.neon.com/VqfnMo4).
+
+<div>
+  <p>Sponsored by</p>
+  <a href="https://get.neon.com/VqfnMo4">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://neon.com/brand/neon-logo-dark-color.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://neon.com/brand/neon-logo-light-color.svg">
+      <img width="250px" alt="Neon Logo fallback" src="https://neon.com/brand/neon-logo-dark-color.svg">
+    </picture>
+  </a>
+</div>
+
 📖 **[Full Self-Hosting Guide](SELF-HOSTING.md)** • 🐳 **[Docker Guide](DOCKER.md)**
 
 ---
