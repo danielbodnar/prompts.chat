@@ -147,14 +147,14 @@ export default async function SelfHostingPage() {
                   className="inline-flex"
                 >
                   <Image
-                    src="https://neon.com/brand/neon-logo-light-color.svg"
+                    src="/sponsors/neon.svg"
                     alt="Neon"
                     width={250}
                     height={72}
                     className="h-10 w-auto dark:hidden"
                   />
                   <Image
-                    src="https://neon.com/brand/neon-logo-dark-color.svg"
+                    src="/sponsors/neon-dark.svg"
                     alt="Neon"
                     width={250}
                     height={72}

@@ -122,9 +122,9 @@ The setup wizard configures branding, theme, authentication (GitHub/Google/Azure
   <p>Sponsored by</p>
   <a href="https://get.neon.com/VqfnMo4">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://neon.com/brand/neon-logo-dark-color.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://neon.com/brand/neon-logo-light-color.svg">
-      <img width="250px" alt="Neon Logo fallback" src="https://neon.com/brand/neon-logo-dark-color.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon.svg">
+      <img width="250px" alt="Neon Logo fallback" src="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon-dark.svg">
     </picture>
   </a>
 </div>
@@ -180,6 +180,14 @@ Use prompts.chat as an MCP server in your AI tools.
 ## 💖 Sponsors
 
 <p align="center">
+  <!-- Neon (py-1) -->
+  <a href="https://get.neon.com/VqfnMo4">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon.svg">
+      <img height="30" alt="Neon" src="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon.svg">
+    </picture>
+  </a>&nbsp;&nbsp;
   <!-- Clemta -->
   <a href="https://clemta.com/?utm_source=prompts.chat">
     <picture>

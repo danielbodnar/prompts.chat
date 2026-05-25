@@ -1,9 +1,18 @@
 import type { WidgetPlugin, WidgetPrompt, WidgetContext, InjectedWidget } from "./types";
+import { coderabbitWidget } from "./coderabbit";
+import { bookWidget } from "./book";
+import { textreamWidget } from "./textream";
+import { commandcodeWidget } from "./commandcode";
 
 export * from "./types";
 
 // Registry of all widget plugins
-const widgetPlugins: WidgetPlugin[] = [];
+const widgetPlugins: WidgetPlugin[] = [
+  coderabbitWidget,
+  bookWidget,
+  textreamWidget,
+  commandcodeWidget,
+];
 
 /**
  * Get all registered widget plugins
